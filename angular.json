@@ -127,6 +127,7 @@
   },
   "defaultProject": "StyleWork",
   "cli": {
-    "analytics": "ff60f60d-7fe9-488a-8167-78b37bf73a28"
+    "analytics": "ff60f60d-7fe9-488a-8167-78b37bf73a28",
+    "defaultCollection": "@ngrx/schematics"
   }
 }
