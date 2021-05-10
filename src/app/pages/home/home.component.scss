@@ -1,0 +1,101 @@
+.info-banner {
+    &::before {
+        content: "";
+        background: url('../../../assets/images/abstract-background.png') no-repeat;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background-size: cover;
+    }
+    h1 {
+        span {
+            color: #20847D;
+        }
+        margin-bottom: 1.4rem;
+    }
+    .banner-tab {
+        border-color: #20847D !important;
+        .nav-tabs {
+            border-color: #20847D;
+            li {
+                button {
+                    border: none;
+                    margin: 0;
+                    color: #20847D;
+                    font-weight: 500;
+                    &.active {
+                        background-color: #20847D;
+                        color: #fff;
+                        border: none;
+                    }
+                }
+                &:first-child {
+                    button {
+                        border-top-right-radius: 0;
+                    }
+                }
+                &:last-child {
+                    button {
+                        border-top-left-radius: 0;
+                    }
+                }
+            }
+        }
+        .cities {
+            .c-img {
+                margin-right: 15px;
+            }
+        }
+    }
+    .banner-img {
+        position: relative;
+        .d-flex {
+            height: 100%;
+            .infotext {
+                width: 50%;
+                background-color: #32353D;
+                background-color: rgba($color: #32353D, $alpha: 0.6);
+                border: 2px solid #fff;
+                color: #fff;
+                border-radius: 1rem;
+                padding: 1rem;
+                left: -10%;
+                position: absolute;
+                top: 5%;
+                &:nth-child(2) {
+                    right: -5%;
+                    bottom: 10%;
+                    top: auto;
+                }
+                &:last-child {
+                    bottom: -3%;
+                    left: -16%;
+                    top: auto;
+                }
+                img {
+                    background-color: rgba($color: #0E131D, $alpha: 0.15);
+                    padding: 10px;
+                    border-radius: 50%;
+                }
+                h6 {
+                    font-weight: 500;
+                    margin-top: 0.6rem;
+                }
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    li {
+                        font-size: 12px;
+                        background: url('../../../assets/icons/tick.svg') no-repeat;
+                        padding-left: 25px;
+                        background-size: 15px;
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
