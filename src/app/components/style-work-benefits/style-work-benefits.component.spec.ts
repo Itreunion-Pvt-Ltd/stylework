@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { StyleWorkStatsComponent } from './styleWork-stats.component';
+import { StyleWorkBenifitsComponent } from './style-work-benefits.component';
 
-describe('StyleWorkStatsComponent', () => {
-  let component: StyleWorkStatsComponent;
-  let fixture: ComponentFixture<StyleWorkStatsComponent>;
+describe('StyleWorkBenifitsComponent', () => {
+  let component: StyleWorkBenifitsComponent;
+  let fixture: ComponentFixture<StyleWorkBenifitsComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [StyleWorkStatsComponent]
+      declarations: [StyleWorkBenifitsComponent]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StyleWorkStatsComponent);
+    fixture = TestBed.createComponent(StyleWorkBenifitsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

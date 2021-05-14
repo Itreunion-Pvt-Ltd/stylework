@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { WhyCoWorkingComponent } from './why-co-working.component';
+import { WorkspaceFiltersComponent } from './workspace-filters.component';
 
-describe('WhyCoWorkingComponent', () => {
-  let component: WhyCoWorkingComponent;
-  let fixture: ComponentFixture<WhyCoWorkingComponent>;
+describe('WorkspaceFiltersComponent', () => {
+  let component: WorkspaceFiltersComponent;
+  let fixture: ComponentFixture<WorkspaceFiltersComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ WhyCoWorkingComponent ]
+      declarations: [ WorkspaceFiltersComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WhyCoWorkingComponent);
+    fixture = TestBed.createComponent(WorkspaceFiltersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
