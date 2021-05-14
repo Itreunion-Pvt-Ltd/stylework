@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { WhyCoWorkingComponent } from './why-co-working.component';
 
@@ -6,7 +6,7 @@ describe('WhyCoWorkingComponent', () => {
   let component: WhyCoWorkingComponent;
   let fixture: ComponentFixture<WhyCoWorkingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ WhyCoWorkingComponent ]
     })

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { StyleWorkStatsComponent } from './styleWork-stats.component';
 
@@ -6,7 +6,7 @@ describe('StyleWorkStatsComponent', () => {
   let component: StyleWorkStatsComponent;
   let fixture: ComponentFixture<StyleWorkStatsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [StyleWorkStatsComponent]
     })
