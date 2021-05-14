@@ -9,6 +9,7 @@ import { StyleWorkStatsComponent } from './components/style-work-stats/styleWork
 import { WhyCoWorkingComponent } from './components/why-co-working/why-co-working.component';
 import { StyleWorkBenefitsComponent } from './components/style-work-benefits/style-work-benefits.component';
 import { UnconventionalBenefitsComponent } from './components/style-work-benefits/unconventional-benefits/unconventional-benefits.component';
+import { WorkspaceFiltersComponent } from './workspace-filters/workspace-filters.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { UnconventionalBenefitsComponent } from './components/style-work-benefit
     StyleWorkStatsComponent,
     WhyCoWorkingComponent,
     StyleWorkBenefitsComponent,
-    UnconventionalBenefitsComponent
+    UnconventionalBenefitsComponent,
+    WorkspaceFiltersComponent
   ],
   imports: [
     BrowserModule,
