@@ -12,6 +12,8 @@ import { UnconventionalBenefitsComponent } from './components/style-work-benefit
 import { WorkspaceFiltersComponent } from './components/workspace-filters/workspace-filters.component';
 import { StyleWorkCitiesComponent } from './components/style-work-cities/style-work-cities.component';
 import { WorkspacesComponent } from './components/workspaces/workspaces.component';
+import { StyleWorkSpaceComponent } from './components/style-work-space/style-work-space.component';
+
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
@@ -26,7 +28,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     UnconventionalBenefitsComponent,
     WorkspaceFiltersComponent,
     StyleWorkCitiesComponent,
-    WorkspacesComponent
+    WorkspacesComponent,
+    StyleWorkSpaceComponent
   ],
   imports: [
     BrowserModule,
