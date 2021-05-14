@@ -9,7 +9,10 @@ import { StyleWorkStatsComponent } from './components/style-work-stats/styleWork
 import { WhyCoWorkingComponent } from './components/why-co-working/why-co-working.component';
 import { StyleWorkBenefitsComponent } from './components/style-work-benefits/style-work-benefits.component';
 import { UnconventionalBenefitsComponent } from './components/style-work-benefits/unconventional-benefits/unconventional-benefits.component';
-import { WorkspaceFiltersComponent } from './workspace-filters/workspace-filters.component';
+import { WorkspaceFiltersComponent } from './components/workspace-filters/workspace-filters.component';
+import { StyleWorkCitiesComponent } from './components/style-work-cities/style-work-cities.component';
+import { WorkspacesComponent } from './components/workspaces/workspaces.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -21,11 +24,14 @@ import { WorkspaceFiltersComponent } from './workspace-filters/workspace-filters
     WhyCoWorkingComponent,
     StyleWorkBenefitsComponent,
     UnconventionalBenefitsComponent,
-    WorkspaceFiltersComponent
+    WorkspaceFiltersComponent,
+    StyleWorkCitiesComponent,
+    WorkspacesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
