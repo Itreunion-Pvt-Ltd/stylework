@@ -15,6 +15,7 @@ import { WorkspacesComponent } from './components/workspaces/workspaces.componen
 import { StyleWorkSpaceComponent } from './components/style-work-space/style-work-space.component';
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { WorkspaceListComponent } from './components/workspace-list/workspace-list.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     WorkspaceFiltersComponent,
     StyleWorkCitiesComponent,
     WorkspacesComponent,
-    StyleWorkSpaceComponent
+    StyleWorkSpaceComponent,
+    WorkspaceListComponent
   ],
   imports: [
     BrowserModule,
