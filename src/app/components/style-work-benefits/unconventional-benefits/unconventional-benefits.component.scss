@@ -16,15 +16,13 @@
       width: 100%;
       padding: 40px 0px 20px 0px;
       border-bottom: 1px solid #6C778C;
-      h5 {
-        margin-top: 20px;
-        font-weight: 100;
+      h4 {
+        font-weight: 400 !important;
       }
       p {
         font-size: 18px;
         font-weight: 100;
         float: right;
-        width: 515px;
       }
     }
     li:last-child {
@@ -44,4 +42,7 @@
     height: 40px;
     padding: 7px 14px;
   }
+}
+.unconvential-benifits ul li h2 {
+  font-weight: 400 !important;
 }
