@@ -13,9 +13,10 @@ import { WorkspaceFiltersComponent } from './components/workspace-filters/worksp
 import { StyleWorkCitiesComponent } from './components/style-work-cities/style-work-cities.component';
 import { WorkspacesComponent } from './components/workspaces/workspaces.component';
 import { StyleWorkSpaceComponent } from './components/style-work-space/style-work-space.component';
-
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { WorkspaceListComponent } from './components/workspace-list/workspace-list.component';
+import { GetStartedComponent } from './components/get-started/get-started.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import { WorkspaceListComponent } from './components/workspace-list/workspace-li
     StyleWorkCitiesComponent,
     WorkspacesComponent,
     StyleWorkSpaceComponent,
-    WorkspaceListComponent
+    WorkspaceListComponent,
+    GetStartedComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
