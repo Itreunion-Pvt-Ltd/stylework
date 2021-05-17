@@ -6,6 +6,82 @@
   padding-top: 50px;
   margin-top: 100px;
   h1 {
-    margin-top: 300px;
+    margin-top: 400px;
   }
+}
+.progress-circle {
+  margin-top: 400px;
+  width: 500px;
+  height: 500px;
+  border: 3px solid #737373;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+}
+.testimonials p {
+  position: absolute;
+  top: 35%;
+  width: 75%;
+  left: 14%;
+  color: #EDEFF3;
+  font-weight: 100;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 26px;
+}
+.testimonials h4 {
+  margin: 0;
+  left: 40%;
+  position: absolute;
+  top: -50px;
+}
+.testimonials h6 {
+  margin: 0;
+  left: 40%;
+  position: absolute;
+  top: -30px;
+}
+.testimonial-2 h4 {
+  position: absolute !important;
+  top: 42% !important;
+  right: -20% !important;
+  text-align: right;
+}
+.testimonial-2 h6 {
+  position: absolute !important;
+  top: 45% !important;
+  right: -20% !important;
+  text-align: right;
+}
+.testimonial-3 h4 {
+  position: absolute !important;
+  top: 102%;
+  vertical-align: bottom;
+
+}
+.testimonial-3 h6 {
+  position: absolute !important;
+  top: 105%;
+  vertical-align: bottom;
+}
+.testimonial-4 h4 {
+  position: absolute !important;
+  top: 40%;
+  left: -20%;
+}
+.testimonial-4 h6 {
+  position: absolute !important;
+  top: 43%;
+  left: -20%;
+}
+.details p {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.0025em;
+  color: #B6B9BF;
 }
