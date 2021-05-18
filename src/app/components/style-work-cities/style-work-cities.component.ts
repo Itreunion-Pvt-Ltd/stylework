@@ -9,8 +9,9 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class StyleWorkCitiesComponent implements OnInit {
 
   constructor(config: NgbCarouselConfig) {
-    config.interval = 2000;
+    config.interval = 3000;
     config.showNavigationIndicators = false;
+    config.pauseOnHover = false;
   }
 
   ngOnInit(): void {
