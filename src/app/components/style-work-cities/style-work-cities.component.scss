@@ -3,3 +3,16 @@
       margin-right: 15px;
   }
 }
+:host ::ng-deep .sr-only {
+  display: none;
+}
+:host ::ng-deep .carousel-control-next-icon {
+  background-image: url("../../../assets/images/Next.png");
+}
+:host ::ng-deep .carousel-control-prev-icon {
+  display: none;
+}
+:host ::ng-deep .carousel-control-next {
+  right: 10px;
+  top: -28px;
+}

@@ -40,29 +40,29 @@
       <div class="col-12 col-md-6">
         <div class="banner-img">
           <div class="d-flex flex-column justify-content-evenly w-100">
-            <div class="infotext">
+            <div class="infotext" (click)="infoText('div1')">
               <img src="assets/icons/operated.svg" alt="icon" class="me-1">
               <h6>No operational hassles</h6>
-              <ul>
+              <ul *ngIf="div === 'div1'">
                 <li>Fully operated environment to save all your operational costs.</li>
                 <li>Advanced safety and sanetisation practises to ensure a safe workplace.</li>
                 <li>Extensive amenities to ensure a productive output.</li>
               </ul>
             </div>
-            <div class="infotext ms-auto">
+            <div class="infotext ms-auto" (click)="infoText('div2')">
               <img src="assets/icons/flexibility.svg" alt="icon" class="me-1">
               <h6>Flexible, remote working</h6>
-              <ul>
+              <ul *ngIf="div === 'div2'">
                 <li>Fixed/multilocational workspace access</li>
                 <li>Fully-customizable offerings (seats, employees, and many more)</li>
                 <li>Hassle-free access control</li>
                 <li>Offerings that suits your budget, or specific brands of your own choice</li>
               </ul>
             </div>
-            <div class="infotext">
+            <div class="infotext" (click)="infoText('div3')">
               <img src="assets/icons/operational-hassles.svg" alt="icon" class="me-1">
               <h6>Zero Liability</h6>
-              <ul>
+              <ul *ngIf="div === 'div3'">
                 <li>Hassle-free contraction & expansion of your workspace</li>
                 <li>No Lock-in period</li>
                 <li>Minimum security deposits </li>

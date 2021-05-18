@@ -17,6 +17,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { WorkspaceListComponent } from './components/workspace-list/workspace-list.component';
 import { GetStartedComponent } from './components/get-started/get-started.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { FooterComponent } from './components/layout/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

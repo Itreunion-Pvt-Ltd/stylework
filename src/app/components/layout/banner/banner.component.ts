@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-
+  div: string;
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  infoText(div) {
+    this.div = div;
+  }
 }

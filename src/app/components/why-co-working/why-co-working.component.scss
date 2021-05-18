@@ -9,3 +9,15 @@
     font-size: 14px;
   }
 }
+:host ::ng-deep .sr-only {
+  display: none;
+}
+:host ::ng-deep .carousel-control-next-icon {
+  background-image: url("../../../assets/images/Next.png");
+}
+:host ::ng-deep .carousel-control-prev-icon {
+  display: none;
+}
+:host ::ng-deep .carousel-control-next {
+  display: none;
+}
