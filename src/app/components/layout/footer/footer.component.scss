@@ -9,14 +9,36 @@
     margin-top: 400px;
   }
 }
-.progress-circle {
+#progress-circle-border {
   margin-top: 400px;
   width: 500px;
   height: 500px;
   border: 3px solid #737373;
   border-radius: 50%;
-  float: right;
+  position: absolute;
+  transform: rotate(
+    41deg
+    );
+    left: 49%;
+}
+.percentage-25 {
+  border-top: 3px solid !important;
+}
+.percentage-50 {
+  border-right: 3px solid !important;
+}
+.percentage-75 {
+  border-bottom: 3px solid !important;
+}
+.percentage-100 {
+  border-left: 3px solid !important;
+}
+.progress-circle {
   position: relative;
+  margin-top: 400px;
+  width: 500px;
+  height: 500px;
+  left: 25%;
 }
 .testimonials {
   p {
@@ -31,18 +53,21 @@
   font-weight: 100;
   font-size: 14px;
   line-height: 26px;
+
   }
   h4 {
     margin: 0;
     left: 40%;
     position: absolute;
     top: -50px;
+
   }
   h6 {
     margin: 0;
     left: 40%;
     position: absolute;
     top: -30px;
+
   }
 }
 .testimonial-2 {
